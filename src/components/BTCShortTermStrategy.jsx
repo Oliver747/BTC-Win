@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Card, CardContent } from "../ui/card";
-import { Button } from "../ui/button";
-import { Switch } from "../ui/switch";
+import { Card, CardContent } from "./ui/card";
+import { Button } from "./ui/button";
+import { Switch } from "./ui/switch";
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, Scatter } from "recharts";
 import { BadgeCheck, Clock, TrendingUp, TrendingDown } from "lucide-react";
 
