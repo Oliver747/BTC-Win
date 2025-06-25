@@ -1,9 +1,9 @@
 
 // ✅ 完整代码，含模拟下单与胜率统计
 import React, { useState, useEffect, useRef } from "react";
-import { Card, CardContent } from "src/components/ui/card";
-import { Button } from "src/components/ui/button";
-import { Switch } from "src/components/ui/switch";
+import { Card, CardContent } from "../ui/card";
+import { Button } from "../ui/button";
+import { Switch } from "../ui/switch";
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, Scatter } from "recharts";
 import { BadgeCheck, Clock, TrendingUp, TrendingDown } from "lucide-react";
 
