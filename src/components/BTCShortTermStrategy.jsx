@@ -254,7 +254,7 @@ export default function BTCShortTermStrategy() {
             当前趋势：<span className="font-semibold">{trend}</span>
           </div>
 
-          <h2 className="text-xl font-bold">📈 进场信号</h2>
+          <h2 className="text-xl font-bold">📈 进场信号（3分钟K线）</h2>
           <div className="text-lg flex items-center gap-2">
             {signal.includes("✅") ? <BadgeCheck className="text-blue-500" /> : <Clock />} 
             当前信号：<span className="font-semibold">{signal}</span>
